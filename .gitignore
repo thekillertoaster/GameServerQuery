@@ -1,0 +1,40 @@
+# .gitignore
+
+
+# Ignore Node modules, if you're using any Node-based development tools
+node_modules
+
+# Ignore OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Ignore Editor files
+*.sublime*
+*.vscode*
+*.swp
+*.swo
+*.swn
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore build files
+/build
+/dist
+
+# Ignore all PHP Composer dependencies
+/vendor/
+
+# Ignore PHP Storm IDE files
+.idea/
+
+# Ignore npm debug log and dependencies
+npm-debug.log
+node_modules/
+
+# Ignore Packaged Files
+GameServerQuery.zip
