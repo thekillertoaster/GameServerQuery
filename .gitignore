@@ -28,6 +28,7 @@ desktop.ini
 
 # Ignore all PHP Composer dependencies
 /vendor/
+composer.lock
 
 # Ignore PHP Storm IDE files
 .idea/
